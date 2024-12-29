@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141618;
+}
+header{
+    color: aliceblue;
+    text-align: center;
+    font-family: "Doto", sans-serif;
+    font-size: 15px;
+    background-color: #141618;
+}
+
+header h1{
+    padding: 20px;
+}
+
+main{
+    background-color: #ffffff
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px, 1fr));
+    gap: 40px;
+    padding: 30px;
+
+}
+
+.color{
+    height: 150px;
+    margin-bottom: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+}
+
+.container{
+    border-radius: 12px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 5px 1px rgb(136, 137, 139);
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.sect-btn{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    color: #000000;
+    background-color: #29292844;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #29292844;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.container button{
+    color: #0b1812;
+    background-color: #7fc426;
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #7fc426;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+footer{
+    padding: 1px;
+    font-family: "Doto", sans-serif;
+    padding: 5px 20px;
+    background-color: #141618;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+footer h4{
+    font-family: "Doto", sans-serif;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+}
+span{
+    display: block;
+    padding: 10px;
+}
+
+.color{
+    background-color: #000000;
+}
+
+#btn-crear{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    backdrop-filter: blur(0.rem);
+    cursor: pointer;
+}
+
+.iconos{
+    display: flex;
+    flex-flow: wrap row;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+footer img{
+    height: 40px;
+    box-shadow: none;
+
+}
